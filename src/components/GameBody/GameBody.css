@@ -1,0 +1,22 @@
+.game_body {
+    width: 95vh;
+    height: calc(100vh - 30px);
+    max-width: 95vw;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 10px;
+    padding: 15px;
+    min-height: 585px;
+    min-width: 500px;
+    user-select: none;
+}
+
+.game_body.Dark{
+    background: rgb(0, 0, 0);
+}
+
+.game_body.Light{
+    background: white;
+}

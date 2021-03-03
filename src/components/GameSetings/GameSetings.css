@@ -1,0 +1,96 @@
+.game_setings{
+    position: absolute;
+    top: 105px;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    border-radius: 0 0 15px 15px;
+    padding: 20px;
+    z-index: 90;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    user-select: none;
+}
+
+.game_setings ul{
+    list-style: none;
+    text-align: center;
+}
+
+.game_setings ul li{
+    margin-bottom: 15px;
+}
+
+.speed_seting, .theme_seting, .music_seting{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.speed_seting .active, .theme_seting .active{
+    background: rgba(128, 255, 0, 0.7);
+}
+
+.speed_seting div, .theme_seting div{
+    font-size: 22px;
+    margin-left: 15px;
+    border: 1px solid chartreuse;
+    padding: 4px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.speed_seting div:hover, .theme_seting div:hover{
+    cursor: pointer;
+    background: rgba(128, 255, 0, 0.7);
+}
+
+.music_seting ul{
+    height: 45px;
+    width: 100px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 15px;
+}
+
+.music_seting ul li{
+    width: 25px;
+    margin-left: 2px;
+    border: 1px chartreuse solid;
+    transition: background 0.3s ease;
+}
+
+.music_seting ul li:hover{
+    cursor: pointer;
+    background: rgba(128, 255, 0, 0.7);
+}
+
+.music_seting ul li.active{
+    background: rgba(128, 255, 0, 0.7);
+}
+
+.game_setings .leader_board span:hover, .game_setings .info span:hover{
+    cursor: pointer;
+}
+
+.sound_off_btn{
+    width: 40px;
+    height: auto;
+    margin-left: 15px;
+}
+
+.sound_off_btn:hover {
+    cursor: pointer;
+}
+
+.Dark .game_setings{
+    color: #fff;
+    background: rgba(5, 106, 238, 0.85);
+}
+
+.Light .game_setings{
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
+}
