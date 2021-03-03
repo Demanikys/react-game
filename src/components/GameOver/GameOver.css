@@ -1,0 +1,41 @@
+.game_over_screen{
+    user-select: none;
+    position: absolute;
+    z-index: 100;
+    top: -107px;
+    bottom: -17px;
+    left: -17px;
+    right: -17px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.game_over_screen div{
+    user-select: none;
+}
+
+.restart_button {
+    margin: 20px auto 0;
+    font-size: 30px;
+    width: min-content;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    border: rgba(128, 255, 0, 1) 2px solid;
+    transition: background 0.3s ease;
+}
+
+.restart_button:hover {
+    cursor: pointer;
+    background: rgba(128, 255, 0, 0.7);
+}
+
+.restart_button:active{
+    transform: scale(0.98);
+}

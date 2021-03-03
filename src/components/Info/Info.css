@@ -1,0 +1,63 @@
+.game_info{
+    position: absolute;
+    top: 105px;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    border-radius: 0 0 15px 15px;
+    padding: 15px;
+    z-index: 90;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    user-select: none;
+}
+
+.Dark .game_info{
+    color: #fff;
+    background: rgba(5, 106, 238, 0.85);
+}
+
+.Light .game_info{
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.game_control{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-basis: 50%;
+    padding: 10px;
+}
+
+.game_contro li{
+    text-align: justify;
+}
+
+.course_info {
+    display: flex;
+    width: 100%;
+    list-style: none;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.course_info .logo img{
+    width: 125px;
+    height: auto;
+}
+
+.course_info .photo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.course_info .photo img{
+    width: 50px;
+    height: auto;
+}

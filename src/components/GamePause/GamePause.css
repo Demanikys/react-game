@@ -1,0 +1,44 @@
+@keyframes ligtning{
+    0%{
+        opacity: 1;
+    }
+    33%{
+        opacity: 1;
+    }
+    66%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.game_pause_screen{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 90;
+    font-weight: bold;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 15px 15px;
+}
+
+.game_pause_screen .text{
+    animation: ligtning 1.5s infinite;
+}
+
+.Light .game_pause_screen{
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+.Dark .game_pause_screen{
+    background: rgba(255, 255, 255, 0.5);
+    color: #000;
+}
+
